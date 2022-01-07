@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Default.astro'
+import SectionTitle from '../components/SectionTitle.svelte'
+import TeamMemberItem from '../components/TeamMemberItem.svelte'
+---
+<Layout>
+<SectionTitle
+    title="OUPS "
+    desc="We are sorry, but the page you are looking for does not exist."
+  />
+
+  <div class="flex flex-col items-center px-6 pt-20">
+    <div class="w-full max-w-6xl">
+      
+      <div class="grid grid-rows-2 gap-20 mb-40">
+
+        <TeamMemberItem
+          title="Page not found"
+          img="/images/404.svg"
+          links={[
+            { title: "GitHub", slug:"github", url:"https://github.com/0sansnom" },
+            { title: "Twitter", slug:"twitter", url:"https://twitter.com/akhmadou" },
+            { title: "Mail", slug:"mail", url:"akhmadou@gmail.com" },
+            { title: "Blog", slug:"devto", url:"https://akhamadou-blog.web.app" },
+          ]}
+          stack={[
+            
+          ]}
+        >
+          — UI/UX designer, Front-end developer
+          <br/>
+          — I love to create beautiful and functional web applications.
+        </TeamMemberItem>
+
+      </div>
+        
+    </div>
+  </div>
+</Layout>

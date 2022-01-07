@@ -1,0 +1,44 @@
+---
+import Head from '../components/Head.astro'
+const {title} = Astro.props;
+const {desc} = Astro.props;
+const {twitterUsername} = Astro.props;
+const {dafaultTheme} = Astro.props;
+
+import ThemeChange from '../components/ThemeChange.svelte'
+import Navbar from '../components/Navbar.svelte'
+import Footer from '../components/Footer.svelte'
+---
+<html lang="en" data-theme={dafaultTheme}>
+  <Head
+    title={(title || 'Akhmadou || Folio') + "  - Web Development Team"}
+    desc={desc || 'Web development, Mobile app development, UI/UX design'}
+    twitterUsername={twitterUsername || ''}
+  >
+    <link rel="stylesheet" href={Astro.resolve("../fonts.css")} />
+    <link rel="stylesheet" href={Astro.resolve("../global.css")} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="alternate icon" href="/favicon.ico">
+ <meta name="theme-color" content="#fff">
+    <link rel="manifest" href="/manifest.json" />
+     <link rel="icon" type="image/png" sizes="192x192" href="/assests/profile_photo_2.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assests/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assests/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assests/favicon-16x16.png">
+  </Head>
+  <body>
+    <div class="flex justify-center">
+      <div class="w-full max-w-6xl">
+        <Navbar>
+          <ThemeChange client:load/>
+        </Navbar>
+      </div>
+    </div>
+    <slot />
+    <div class="flex justify-center p-10 bg-neutral text-neutral-content">
+      <div class="w-full max-w-6xl">
+        <Footer/>
+      </div>
+    </div>
+  </body>
+</html>
