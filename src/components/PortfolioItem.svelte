@@ -2,7 +2,7 @@
   <div class="md:w-1/2 xl:w-3/5">
     <Perspective scale={20} client:load>
       <figure class="overflow-hidden shadow-2xl rounded-box">
-        <img width="662" height="373" class="w-full" alt="" src="/images/{slug}.jpg">
+        <img width="662" height="373" class="w-full" alt="" src="/images/{slug}">
       </figure>
     </Perspective>
   </div>
