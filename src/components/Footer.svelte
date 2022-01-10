@@ -6,6 +6,11 @@
         <img width="24" height="24" class="w-6 h-6" src="/icons/github.svg" alt="GitHub"/>
       </a>
     </span>
+    <span class="tooltip tooltip-secondary" data-tip="Blog">
+      <a href="https://github.com/0sansnom" class="btn btn-sm btn-circle btn-ghost">
+        <img width="24" height="24" class="w-6 h-6" src="/icons/devto.svg" alt="GitHub"/>
+      </a>
+    </span>
     <span class="tooltip tooltip-secondary" data-tip="Mail">
       <a href="mailto:akhmadoun8@gmail.com" class="btn btn-sm btn-circle btn-ghost">
         <img width="24" height="24" class="w-6 h-6" src="/icons/mail.svg" alt="Mail"/>
