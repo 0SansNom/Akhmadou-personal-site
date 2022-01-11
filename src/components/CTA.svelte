@@ -11,8 +11,8 @@
     </div>
     <div class="flex flex-col items-center justify-center w-full gap-2 h-14 sm:flex-row">
       <a class="gap-3 btn xl:btn-lg btn-outline" href="mailto:akhmadoun8@gmail.com">
-        <img class="w-6 h-6" width="24" height="24" src="/icons/gmail.svg" alt="email"/>
-        Send me an Email
+        <img class="w-6 h-6" width="24" height="24" src="/icons/mail.svg" alt="email"/>
+        Send me an email
       </a>
      
     </div>
