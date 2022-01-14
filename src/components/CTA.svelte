@@ -5,7 +5,7 @@
         <span class="text-transparent text-stroke">Start your project with</span>
         <span class="text-base-content"> me</span>
       </h2>
-      <p class="mb-6 text-lg opacity-50">
+      <p class="mb-6 text-lg opacity-70S">
         Tell me more about your project. Send me a message <br/>and we'll get back to you as soon as possible.
       </p>
     </div>
