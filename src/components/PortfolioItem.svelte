@@ -17,7 +17,7 @@
         </span>
       {/each}
     </div>
-    <p class="mb-4 opacity-50"><slot/></p>
+    <p class="mb-4 opacity-70"><slot/></p>
   </div>
 </div>
 
