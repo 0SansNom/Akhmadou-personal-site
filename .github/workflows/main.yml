@@ -3,7 +3,7 @@
 # Edit your project details here.
 # Remember to add API_TOKEN_GITHUB in repo Settings > Secrets as well!
 env:
-  githubEmail: akhmadoun8@gmail.com
+  githubEmail: 0sansnom.200@gmail.com
   actorUser: 0sansnom
   deployToRepo: personnal-website
 
