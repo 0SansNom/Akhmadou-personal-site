@@ -5,7 +5,7 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^0.20.9",
+    "astro": "^1.9.2",
     "daisyui": "^1.14.2",
     "esbuild": "^0.13.4",
     "svelte": "^3.43.1",
